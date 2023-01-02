@@ -1,0 +1,52 @@
+*{
+    text-align: center;
+    margin: 0px;
+}
+
+.menu{
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin-top: 0px;
+    z-index: 10;
+
+}
+
+*{
+    background-color: bisque;
+}
+
+.mm{
+    display: inline;
+    font-size: 35px;
+   margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: black  ;
+}
+a:hover{
+    font-size: 45px;
+    color: red;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+#profile{
+    margin-top: 100px;
+    width: 300px; height: 300px;
+    border-radius: 50%;
+}
+
+#super{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0px;
+    font-size: 60px;
+   
+}
+
+#home{
+ background-image: linear-gradient( to bottom right,red,blue,yellow);
+}
